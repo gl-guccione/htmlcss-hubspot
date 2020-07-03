@@ -1,11 +1,60 @@
+/* general */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-.clearfix::after {
+body .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+i {
+  padding: 5px;
+}
+.btn {
+  color: #fff;
+  background-color: #fe775a;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* header */
+/* top bar fixed */
+header .top-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f4f9fd;
+  width: 100%;
+  border-bottom: 1px solid #32495b;
+}
+
+.top-fixed > .container > div {
+  margin: 20px 0 ;
+}
+.top-fixed > .container > div:first-child {
+  float: left;
+  color: #32495b;
+}
+.top-fixed > .container > div:first-child > span:first-child {
+  padding-right: 20px;
+  border-right: 1px solid #32495b;
+  margin-right: 20px;
+}
+.top-fixed > .container > div:last-child {
+  float: right;
+  color: #00a4bd;
+}
+.top-fixed > .container > div:last-child > button:nth-child(2) {
+  color: #fe775a;
+  background-color: #fff;
+  border: 1px solid #fe775a;
+  margin: 0 15px;
 }
