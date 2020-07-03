@@ -29,7 +29,7 @@ i {
 
 
 /* header */
-/* top bar fixed */
+  /* top bar fixed */
 header .top-fixed {
   position: fixed;
   top: 0;
@@ -63,7 +63,7 @@ header .top-fixed {
 }
 
 
-/* menu-bar */
+  /* menu-bar */
 header .menu-bar {
   margin-top: 80px;
   height: 80px;
@@ -87,7 +87,7 @@ ul.header-menu > li {
 }
 
 
-/* header-main */
+  /* header-main */
 .header-main {
   background-color: #fff2ee;
   background-image: url(../img/jumbotron.png);
@@ -116,4 +116,28 @@ h1 {
   display: block;
   margin: 40px 0;
   font-size: 12px;
+}
+
+
+/* main */
+  /* section.info */
+section.info {
+  background-color: #f4f9fd;
+}
+
+.powerful {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  color: #33475b
+}
+.powerful > img {
+  margin-top: 50px;
+  height: 200px;
+}
+.powerful > h2 {
+  font-size: 36px;
+}
+.powerful > p {
+  padding: 30px 0;
 }
