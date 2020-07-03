@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Lato', sans-serif;
+}
 body .clearfix::after {
   content: "";
   display: table;
@@ -57,4 +60,28 @@ header .top-fixed {
   background-color: #fff;
   border: 1px solid #fe775a;
   margin: 0 15px;
+}
+
+
+/* menu-bar */
+header .menu-bar {
+  margin-top: 80px;
+  height: 80px;
+}
+.menu-bar > .container{
+}
+.menu-bar > .container > img:first-child {
+  margin: 22px 0;
+  float: left;
+  height: 36px;
+}
+
+nav > ul.header-menu {
+  float: right;
+  color: #32495b;
+}
+ul.header-menu > li {
+  display: inline-block;
+  list-style: none;
+  line-height: 80px;
 }
