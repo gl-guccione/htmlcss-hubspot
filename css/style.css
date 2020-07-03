@@ -85,3 +85,35 @@ ul.header-menu > li {
   list-style: none;
   line-height: 80px;
 }
+
+
+/* header-main */
+.header-main {
+  background-color: #fff2ee;
+  background-image: url(../img/jumbotron.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  color: #33475b;
+}
+
+.header-main .header-left {
+  width: 50%;
+}
+h1 {
+  font-size: 46px;
+  padding-top: 55px;
+}
+.header-left > p {
+  padding: 40px 0;
+}
+.header-left > button {
+  font-size: 16px;
+  padding: 20px 40px;
+}
+.header-left > span {
+  display: block;
+  margin: 40px 0;
+  font-size: 12px;
+}
