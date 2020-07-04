@@ -18,6 +18,7 @@ body .clearfix::after {
 }
 .c-style {
   border-radius: 10px;
+  background-color: #fff;
   box-shadow: 0px 0px 4px 0px #c1d6e1;
 }
 i {
@@ -149,7 +150,6 @@ section.info {
 
   /* .book */
 .book {
-  background-color: #fff;
   color: #33475b;
 }
 
@@ -196,6 +196,44 @@ section.info {
   color: #fe775a;
 }
 
-.test {
+
+  /* .skill */
+.skill {
+  padding: 50px 0;
+  color: #33475b;
+}
+
+.skill > div {
+  float: left;
+  width: calc(calc(100% - 80px) / 3);
+  text-align: center;
+  padding: 25px 55px;
+}
+.skill > div:nth-child(2) {
+  margin: 0 40px;
+}
+.skill > div > img {
   height: 100px;
+}
+.skill > div > h3 {
+  font-size: 30px;
+  padding: 25px 0;
+}
+.skill > div > p {
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+.skill > div > h4 {
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+.skill ul > li {
+  text-align: left;
+  list-style: none;
+}
+.skill ul > li > i {
+  color: #fe775a;
+}
+.skill ul > li:last-child {
+  margin-bottom: 40px;
 }
