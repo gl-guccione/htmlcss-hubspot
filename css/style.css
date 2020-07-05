@@ -237,3 +237,52 @@ section.info {
 .skill ul > li:last-child {
   margin-bottom: 40px;
 }
+
+
+/* section.gradient */
+section.gradient {
+  color: #fff;
+  text-align: center;
+  background: #0099B4;
+  background: -webkit-linear-gradient(left, #0099B4 0%, #00EBDB 100%);
+  background: -o-linear-gradient(left, #0099B4 0%, #00EBDB 100%);
+  background: linear-gradient(to right, #0099B4 0%, #00EBDB 100%);
+}
+section.gradient > .container > h2 {
+  font-size: 36px;
+  padding: 100px 0 30px 0;
+}
+section.gradient > .container > p {
+  font-size: 18px;
+  font-weight: 300;
+}
+  /* .wrapper-num */
+.wrapper-num {
+  padding: 80px 0;
+}
+
+.wrapper-num > div{
+  float: left;
+  width: calc(100% / 4);
+  /* height: 200px; */
+  text-align: center;
+  padding: 40px 0;
+}
+.wrapper-num > div > img{
+  height: 40px;
+}
+.wrapper-num > div > h2{
+  font-size: 50px;
+  padding: 10px 0;
+}
+
+.wrapper-num > div:nth-child(1n+2) {
+  border-left: 1px solid #fff;
+}
+.wrapper-num > div:nth-child(5) {
+  border-left: none;
+}
+
+.wrapper-num > div:nth-child(1n+5) {
+  border-top: 1px solid #fff;
+}
