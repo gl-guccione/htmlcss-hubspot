@@ -354,3 +354,9 @@ section.sign {
 .woman > div:last-child > img {
   width: 50%;
 }
+
+
+/* footer */
+footer {
+  background-color: #32495b;
+}
