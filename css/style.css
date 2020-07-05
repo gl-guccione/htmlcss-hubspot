@@ -286,3 +286,57 @@ section.gradient > .container > p {
 .wrapper-num > div:nth-child(1n+5) {
   border-top: 1px solid #fff;
 }
+
+
+/* section.sign */
+section.sign {
+  color: #33475b;
+}
+  /* .customer */
+.customer {
+  padding: 60px 0;
+}
+.customer > div {
+  float: left;
+  padding: 25px;
+}
+.customer > div:first-child {
+  width: 40%;
+}
+.customer > div:first-child > h2 {
+  font-size: 50px;
+  padding: 25px 0;
+}
+.customer > div:first-child > p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+}
+.customer > div:last-child {
+  width: 60%
+}
+.customer > div:last-child li {
+  float: left;
+  width: calc(100% / 4);
+  height: 100px;
+  position: relative;
+  list-style: none;
+  text-align: center;
+}
+.customer > div:last-child li > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+  /* .woman */
+.woman > div {
+  float: left;
+  width: 50%;
+}
+
+.woman > div:first-child {
+
+}
