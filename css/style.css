@@ -411,6 +411,52 @@ section.gradient > .container > p {
 }
 
 
+  /* overlay */
+#overlay {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 19%;
+}
+#overlay > div:first-child {
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+#overlay > div:first-child > i {
+  color: #b0c1d4;
+}
+#overlay > div:first-child > i:hover {
+  cursor: pointer;
+}
+#overlay > div:first-child > p {
+  color: #425b76;
+  text-align: left;
+}
+#overlay > div:first-child > img {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#overlay > div:last-child {
+  float: right;
+  background-color: #32495b;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  text-align: right;
+}
+#overlay > div:last-child:hover {
+  cursor: pointer;
+}
+#overlay > div:last-child > i {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+}
+
 /* footer */
 footer {
   color: #cbd6e2;
