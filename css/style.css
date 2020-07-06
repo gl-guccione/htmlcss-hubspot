@@ -25,6 +25,9 @@ body .clearfix::after {
 i {
   padding: 5px;
 }
+button:hover {
+  cursor: pointer;
+}
 button.btn {
   color: #fff;
   background-color: #fe775a;
@@ -35,6 +38,9 @@ button.btn {
 button.btn-big {
   font-size: 16px;
   padding: 20px 40px;
+}
+button.btn:hover {
+  background-color: #ffbcac;
 }
 li {
   list-style: none;
@@ -83,6 +89,9 @@ header {
   background-color: #fff;
   border: 1px solid #fe775a;
   margin: 0 15px;
+}
+#top-fixed > .container > div:last-child > button:nth-child(2):hover {
+  background-color: #fff1ee;
 }
 
 
@@ -401,6 +410,9 @@ ul.inline > li {
 footer button.btn-white {
   color: #32495b;
   background-color: #fff;
+}
+footer button.btn-white:hover {
+  background-color: #eaf0f6;
 }
 
 
