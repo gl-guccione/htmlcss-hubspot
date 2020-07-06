@@ -75,7 +75,7 @@ header {
   float: left;
 
 }
-#top-fixed > .container > div:first-child > span:first-child {
+#top-fixed > .container > div:first-child > div:first-child {
   padding-right: 20px;
   border-right: 1px solid #32495b;
   margin-right: 20px;
@@ -92,6 +92,38 @@ header {
 }
 #top-fixed > .container > div:last-child > button:nth-child(2):hover {
   background-color: #fff1ee;
+}
+
+#lang-sel {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+}
+#lang-sel:hover #lang {
+  display: block;
+}
+#lang:hover {
+  display: block;
+}
+#lang {
+  display: none;
+  position: absolute;
+  top: 40px;
+  width: 120px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 10px 0;
+}
+#lang li {
+  width: 100%;
+  padding: 10px;
+}
+#lang li:hover {
+  background-color: #e5f5f8;
+}
+#lang li > a {
+  color: #32495b;
+  font-size: 18px;
 }
 
 
