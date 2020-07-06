@@ -24,7 +24,7 @@ body .clearfix::after {
 i {
   padding: 5px;
 }
-.btn {
+button.btn {
   color: #fff;
   background-color: #fe775a;
   padding: 8px;
@@ -35,6 +35,15 @@ button.btn-big {
   font-size: 16px;
   padding: 20px 40px;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #7dcedb;
+}
 
 
 /* header */
@@ -43,6 +52,7 @@ header .top-fixed {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   background-color: #f4f9fd;
   width: 100%;
   border-bottom: 1px solid #32495b;
@@ -91,7 +101,6 @@ nav > ul.header-menu {
 }
 ul.header-menu > li {
   display: inline-block;
-  list-style: none;
   line-height: 80px;
 }
 
@@ -189,7 +198,6 @@ section.info {
 }
 
 .book > div:last-child > ul >li {
-  list-style: none;
   display: inline-block;
 }
 .book > div:last-child > ul i {
@@ -229,7 +237,6 @@ section.info {
 }
 .skill ul > li {
   text-align: left;
-  list-style: none;
 }
 .skill ul > li > i {
   color: #fe775a;
@@ -320,7 +327,6 @@ section.sign {
   width: calc(100% / 4);
   height: 100px;
   position: relative;
-  list-style: none;
   text-align: center;
 }
 .customer > div:last-child li > img{
@@ -358,5 +364,67 @@ section.sign {
 
 /* footer */
 footer {
+  color: #cbd6e2;
   background-color: #32495b;
+  padding: 100px 0 60px 0;
+}
+footer a {
+  color:#cbd6e2;
+}
+section.footer-lists > div {
+  float: left;
+  width: 25%;
+}
+section.footer-lists > div > ul > li {
+  padding: 15px 0;
+}
+
+section.footer-lists > div > h4 {
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+ul.inline > li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+footer button.btn-white {
+  color: #32495b;
+  background-color: #fff;
+}
+
+
+.footer-language {
+  text-align: center;
+  margin-top: 60px;
+}
+.footer-language > hr {
+  background-color: #cbd6e2;
+  color: #cbd6e2;
+  margin: 35px 0;
+}
+
+.footer-language > ul.inline > li {
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+.footer-legal > div:first-child {
+  float: left;
+}
+.footer-legal > div:first-child > p {
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.footer-legal > div:last-child {
+  float: right;
+}
+.footer-legal > div:last-child > a {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 30px;
 }
