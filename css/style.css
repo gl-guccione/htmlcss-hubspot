@@ -18,7 +18,7 @@ body .clearfix::after {
   margin: auto;
 }
 .c-style {
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: #fff;
   box-shadow: 0px 0px 4px 0px #c1d6e1;
 }
@@ -50,6 +50,11 @@ a {
 }
 a:hover {
   color: #7dcedb;
+}
+
+ul li > hr {
+  color: #e6f2ff;
+  background-color: #e6f2ff;
 }
 
 
@@ -100,10 +105,7 @@ header {
   display: inline-block;
   padding: 10px 0;
 }
-#lang-sel:hover #lang {
-  display: block;
-}
-#lang:hover {
+#lang-sel:hover #lang, #lang:hover {
   display: block;
 }
 #lang {
@@ -126,7 +128,7 @@ header {
   color: #32495b;
   font-size: 18px;
 }
-#triangle {
+.triangle {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -136,9 +138,9 @@ header {
   border-radius: 0;
   border-top-left-radius: 3px;
   background-color: #fff;
-  z-index: -1;
+  z-index: -2;
 }
-#trinagle-cover {
+.triangle-cover {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -154,8 +156,10 @@ header {
 
   /* menu-bar */
 #menu-bar {
+  position: relative;
   margin-top: 80px;
   height: 80px;
+  z-index: 2;
 }
 #menu-bar > .container{
 }
@@ -164,6 +168,129 @@ header {
   float: left;
   height: 36px;
 }
+
+.menu {
+  position: absolute;
+  top: 65px;
+  display: none;
+  padding: 15px;
+}
+.menu > ul > li.hr:hover {
+  background-color: #fff;
+  cursor: auto;
+}
+.menu li {
+  padding: 10px;
+}
+.menu > ul > li:hover {
+  cursor: pointer;
+}
+ /* menu-software */
+ .menu-software > ul > li:hover {
+   background-color: #e5f5f8;
+ }
+
+ul.header-menu li:hover .menu, .menu:hover {
+  display: block;
+}
+
+.menu-software {
+  width: 530px;
+}
+.menu-software li > img {
+  float: left;
+  padding-right: 10px;
+  height: 60px;
+}
+.menu-software li > h3 , .menu-software li > p {
+  line-height: 30px;
+}
+.menu-software li > h3 {
+  font-size: 18px;
+}
+.menu-software li > p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.menu-software > div.triangle-cover, .menu-software > div.triangle {
+  left: 68px;
+}
+/* menu-resources */
+.menu-resources > ul > li:hover {
+  background-color: #e5f5f8;
+}
+
+.menu-resources {
+  width: 800px;
+  right: 40px;
+}
+.menu-resources > ul > li {
+  float: left;
+  width: calc(100% / 3);
+  line-height: 20px;
+}
+.menu-resources > ul > li:nth-child(4n+0) {
+  width: 100%;
+}
+.menu-resources > ul > li > h4 {
+  padding-bottom: 10px;
+}
+.menu-resources > ul > li > p {
+  font-weight: 300;
+  font-size: 12px;
+}
+.menu-resources > div.triangle-cover, .menu-resources > div.triangle {
+  left: 480px;
+}
+
+/* menu-partners */
+.menu-partners > ul > li:hover {
+  background-color: #e5f5f8;
+}
+.menu-partners {
+  width: 550px;
+  right: 40px;
+}
+.menu-partners > ul > li {
+  float: left;
+  width: calc(100% / 2);
+  line-height: 20px;
+}
+.menu-partners > ul > li > h4 {
+  padding-bottom: 10px;
+}
+.menu-partners > ul > li > p {
+  font-weight: 300;
+  font-size: 12px;
+}
+.menu-partners > div.triangle-cover, .menu-partners > div.triangle {
+  left: 337px;
+}
+
+/* menu-about */
+.menu-about {
+  width: 600px;
+  right: 40px;
+}
+.menu-about > ul > li {
+  float: left;
+  width: calc(100% / 3);
+  line-height: 25px;
+}
+.menu-about > ul > li > h4 {
+  padding-left: 10px;
+}
+.menu-about > ul > li li {
+  font-weight: 300;
+}
+.menu-about > ul > li li:hover {
+  background-color: #e5f5f8;
+}
+.menu-about > div.triangle-cover, .menu-about > div.triangle {
+  left: 478px;
+}
+
+
 
 nav > ul.header-menu {
   float: right;
