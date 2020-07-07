@@ -109,7 +109,7 @@ header {
 #lang {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 45px;
   width: 120px;
   background-color: #fff;
   border-radius: 3px;
@@ -126,7 +126,17 @@ header {
   color: #32495b;
   font-size: 18px;
 }
-
+#triangle{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: -9px;
+  left: 81px;
+  transform: rotate(45deg);
+  border-radius: 3px;
+  background-color: #fff;
+  z-index: -1;
+}
 
   /* menu-bar */
 #menu-bar {
