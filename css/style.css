@@ -448,6 +448,7 @@ section.gradient > .container > p {
   height: 65px;
   border-radius: 50%;
   text-align: right;
+  box-shadow: 0px 0px 4px 0px #c1d6e1;
 }
 #overlay > div:last-child:hover {
   cursor: pointer;
