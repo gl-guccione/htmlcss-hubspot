@@ -59,7 +59,9 @@ ul li > hr {
   background-color: #e6f2ff;
 }
 
-
+.d-none {
+  display: none;
+}
 
 /* header */
 header {
